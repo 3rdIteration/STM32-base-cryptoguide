@@ -2,6 +2,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+baseurl:/STM32-base.github.io
 title: "STM32-base project"
 logo: "/assets/img/logos/STM32-base_logo_no_text_transparent.png"
 author: "Thomas Gravekamp"
