@@ -32,8 +32,8 @@
     <body>
         <header class="site-header">
             <div class="wrapper">
-                <div class="header-logo"><a href="{{ site.url }}"><img src="{{ site.logo }}" alt="STM32-base logo" /></a></div>
-                <div class="header-title"><a href="{{ site.url }}">STM32-base</a></div>
+                <div class="header-logo"><a href="{{ relative_url  }}"><img src="{{ site.logo }}" alt="STM32-base logo" /></a></div>
+                <div class="header-title"><a href="{{ relative_url  }}">STM32-base</a></div>
                 <div id="hamburger" class="header-menu-toggle"><i class="fas fa-bars"></i></div>
             </div>
         </header>
@@ -41,7 +41,7 @@
             <div class="wrapper">
                 <menu class="main-menu">
                     {%- for item in menu -%}
-                    <li><a href="{% if item.external == false %}{{ site.url }}/{% endif %}{{ item.url }}">{{ item.name }}</a></li>
+                    <li><a href="{% if item.external == false %}{{ relative_url }}/{% endif %}{{ item.url }}">{{ item.name }}</a></li>
                     {%- endfor -%}
                 </menu>
             </div>
