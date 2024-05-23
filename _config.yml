@@ -2,7 +2,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-baseurl:/STM32-base.github.io
 title: "STM32-base project"
 logo: "/assets/img/logos/STM32-base_logo_no_text_transparent.png"
 author: "Thomas Gravekamp"
@@ -10,6 +9,7 @@ description: >
   The STM32-base project is meant for students and hobbyists. The goal of the
   STM32-base project is to provide a simple and easy to use base project for
   working with STM32 microcontrollers.
+baseurl: "/STM32-base.github.io/"
 
 mainMenu:
   - name: "Home"
